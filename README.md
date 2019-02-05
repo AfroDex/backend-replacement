@@ -1,17 +1,14 @@
-# ![ForkDelta logo](https://forkdelta.github.io/next/favicon-32x32.png) ForkDelta Backend
-
-[![Build Status](https://travis-ci.org/forkdelta/backend-replacement.svg?branch=master)](https://travis-ci.org/forkdelta/backend-replacement)
-[![Known Vulnerabilities](https://snyk.io/test/github/forkdelta/backend-replacement/badge.svg)](https://snyk.io/test/github/forkdelta/backend-replacement)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/forkdelta/tokenbase/issues)
+# ![Bitcratic logo](https://www.bitcratic.com/images/bitcratic1.png) Bitcratic Backend
 
 
-This repository hosts the source code of ForkDelta backend. The backend provides off-chain orderbook functionality and an API to get a filtered view of Ethereum blockchain events on an [EtherDelta-like contract](https://www.reddit.com/r/EtherDelta/comments/6kdiyl/smart_contract_overview/).
+
+This repository hosts the source code of Bitcratic backend. The backend provides off-chain orderbook functionality and an API to get a filtered view of Ethereum blockchain events on an [EtherDelta-like contract](https://www.reddit.com/r/EtherDelta/comments/6kdiyl/smart_contract_overview/).
 
 Best way to learn about a system is to read the source code. Start with a look at [docker-compose.yml](docker-compose.yml).
 
 ## API
 
-For information and documentation on ForkDelta's API, look here: https://github.com/forkdelta/backend-replacement/tree/master/docs/api
+For information and documentation on Bitcratic API, look here: https://github.com/bitcratic/backend-replacement/tree/master/docs/api
 
 ## Developing
 
@@ -23,7 +20,7 @@ Requirements:
 * Basic familiarity with Docker keywords: image, container (https://docs.docker.com/get-started/#docker-concepts)
 
 Setup:
-1. Clone the repo (git clone https://github.com/forkdelta/backend-replacement.git)
+1. Clone the repo (git clone https://github.com/bitcratic/backend-replacement.git)
 2. Navigate to the root of the working copy, where the README file is.
 3. Copy `default.env` file to `.env` in root.
 4. Uncomment the `COMPOSE_FILE=` line in `.env` to enable mounting of working copy code into the containers.
@@ -45,7 +42,7 @@ Tips:
 
 ## License
 
-Copyright (C) 2018, Arseniy Ivanov and ForkDelta Contributors
+Copyright (C) 2018, Arseniy Ivanov and Bitcratic Contributors
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
