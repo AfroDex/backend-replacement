@@ -1,14 +1,14 @@
-# ForkDelta API
+# Bitcratic API
 
-ForkDelta's API gives you access to ticker information, orders, trades, deposits, withdrawals, and anything else available through our website. You can also interact directly with the smart contract to get trades, deposits, and withdrawals. For an example of directly working with the contract, take a look at our [contract_observer.py](https://github.com/forkdelta/backend-replacement/blob/master/app/services/contract_observer.py). ForkDelta's orderbook is primarily stored offchain, but can be accessed with our public interface or through this API. To learn more about our order system, take a look at our [backend repository](https://github.com/forkdelta/backend-replacement).
+Bitcratic's API gives you access to ticker information, orders, trades, deposits, withdrawals, and anything else available through our website. You can also interact directly with the smart contract to get trades, deposits, and withdrawals. For an example of directly working with the contract, take a look at our [contract_observer.py](https://github.com/bitcratic/backend-replacement/blob/master/app/services/contract_observer.py). Bitcratic's orderbook is primarily stored offchain, but can be accessed with our public interface or through this API. To learn more about our order system, take a look at our [backend repository](https://github.com/bitcratic/backend-replacement).
 
 
 # Websocket Server
 
-ForkDelta's API is socket.io based. The API utilizes SSL on all connections to keep your data private.
-You can connect to ForkDelta's API through this endpoint:
+Bitcratic's API is socket.io based. The API utilizes SSL on all connections to keep your data private.
+You can connect to Bitcratic's API through this endpoint:
 
- - https://api.forkdelta.com
+ - https://bitcratic.org
 
 ## Rate Limiting
 
@@ -16,7 +16,7 @@ Please try to limit your calls to the API to a reasonable frequency.
 
 The API currently limits clients to 6 concurrent connections and 12 reconnects per minute per IP address. We reserve the right to adjust these without advanced notice.
 
-The API does not limit the number of `getMarket` and `order` messages the client can send at this time. Protip: subscribe to [this issue](https://github.com/forkdelta/proposals/issues/11) to get updates on when that changes.
+The API does not limit the number of `getMarket` and `order` messages the client can send at this time. 
 
 Clients that violate rate limits repeatedly may be blocked.
 
@@ -69,9 +69,9 @@ Example `returnTicker`:
       "tokenAddr":"0x11f8dd7699147566cf193596083d45c8f592c4ba",
 [...]
 ```
-If you would like to get data on each ticker including names, please take a look at our [tokenbase repository](https://github.com/forkdelta/tokenbase). If you would just like a simple way to access ticker symbols, take a look at our [configuration JSON](https://forkdelta.github.io/config/main.json).
+If you would like to get data on each ticker including names, please take a look at our [tokenbase repository](https://github.com/bitcratic/tokenbase). If you would just like a simple way to access ticker symbols, take a look at our [configuration JSON](https://bitcratic.com/config/main.json).
 
-We also supply a REST version of this data, but highly recommend using the websocket server for the most up to date information. The REST version can be found here: https://api.forkdelta.com/returnTicker
+We also supply a REST version of this data, but highly recommend using the websocket server for the most up to date information. The REST version can be found here: https://bitcratic.org/returnTicker
 
 #### trades | myTrades
 
@@ -227,7 +227,7 @@ New deposits and withdrawals will be emitted as they occur. The data structure o
 
 Below is a (possibly incomplete) list of third-party libraries that can help you work with ForkDelta API:
 
-* **PHP:** [forkdelta-api-wrapper](https://github.com/chetcuti/forkdelta-api-wrapper) by @chetcuti
+
 * **Python:** [etherdelta](https://github.com/miguelmota/py-etherdelta) by @miguelmota offers ForkDelta client as an option
 
 These are third-party libraries; as such, ForkDelta has no control over them and offers no support for them. You should review their source code to make sure they are bug-free, safe, secure, and fit for your use.
@@ -235,7 +235,7 @@ These are third-party libraries; as such, ForkDelta has no control over them and
 If you would like to add your library to this list, let us know by opening an issue.
 
 # More Information
-For more information, or to see how this websocket server works, take a look at [websocket_server.py](https://github.com/forkdelta/backend-replacement/blob/master/app/services/websocket_server.py)
+For more information, or to see how this websocket server works, take a look at [websocket_server.py](https://github.com/bitcratic/backend-replacement/blob/master/app/services/websocket_server.py)
 
 
 
