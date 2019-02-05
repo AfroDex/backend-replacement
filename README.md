@@ -36,9 +36,7 @@ Tips:
   so it's enough to restart the container (with `docker-compose restart <service-name>`) to apply changes for a given service.
 * You can inspect the list of currently running containers with `docker-compose ps`.
 
-## Contributors
-* [Arseniy Ivanov](https://github.com/freeatnet)
-* [Jonathon Dunford](https://github.com/JonathonDunford)
+
 
 ## License
 
