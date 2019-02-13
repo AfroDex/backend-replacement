@@ -226,7 +226,7 @@ New deposits and withdrawals will be emitted as they occur. The data structure o
 Below is a (possibly incomplete) list of third-party libraries that can help you work with Bitcratic API:
 
 
-* **Python:** [etherdelta](https://github.com/miguelmota/py-etherdelta) by @miguelmota offers Bitcratic client as an option
+
 
 These are third-party libraries; as such, Bitcratic has no control over them and offers no support for them. You should review their source code to make sure they are bug-free, safe, secure, and fit for your use.
 
