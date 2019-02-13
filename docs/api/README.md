@@ -22,11 +22,9 @@ Clients that violate rate limits repeatedly may be blocked.
 
 ## Best Practices
 ### Identify your client
-Make sure to set a custom User Agent for your ForkDelta API client whenever possible. The User Agent string should include the name and version of the client, as well as the client's homepage URL and author's contact (email), like so:
+Make sure to set a custom User Agent for your Bitcratic API client whenever possible. The User Agent string should include the name and version of the client, as well as the client's homepage URL and author's contact (email), like so:
 
-```
-ForkDelta Price Alerts by freeatnet (v0.1.5 (8b0aad6)) (https://project-homepage.com, freeatnet@freeatnet.com)
-```
+
 
 A custom User Agent string will allow us to reach out to you in case of any issues and will help us debug issues if you reach out for support.
 
@@ -35,7 +33,7 @@ If you receive a one-off disconnect from the server, you may reconnect right awa
 
 ## Requests
 
-There are two messages you can send to the ForkDelta websocket API:
+There are two messages you can send to the Bitcratic websocket API:
 1. getMarket
 2. message
 
@@ -173,7 +171,7 @@ Example `myFunds`:
 
 ### 2) message ( order )
 
-`message` allows you to post an order directly to ForkDelta and accepts one required parameter.
+`message` allows you to post an order directly to Bitcratic and accepts one required parameter.
 
 `order` must be a properly formatted JSON object containing the following properties:
 - `amountGive`: the amount you want to give (in wei or the base unit of the token)
@@ -225,12 +223,12 @@ New deposits and withdrawals will be emitted as they occur. The data structure o
 
 # API Client Libraries
 
-Below is a (possibly incomplete) list of third-party libraries that can help you work with ForkDelta API:
+Below is a (possibly incomplete) list of third-party libraries that can help you work with Bitcratic API:
 
 
-* **Python:** [etherdelta](https://github.com/miguelmota/py-etherdelta) by @miguelmota offers ForkDelta client as an option
+* **Python:** [etherdelta](https://github.com/miguelmota/py-etherdelta) by @miguelmota offers Bitcratic client as an option
 
-These are third-party libraries; as such, ForkDelta has no control over them and offers no support for them. You should review their source code to make sure they are bug-free, safe, secure, and fit for your use.
+These are third-party libraries; as such, Bitcratic has no control over them and offers no support for them. You should review their source code to make sure they are bug-free, safe, secure, and fit for your use.
 
 If you would like to add your library to this list, let us know by opening an issue.
 
