@@ -1,5 +1,5 @@
-# Bitcratic Backend
-# https://github.com/bitcratic/backend-replacement
+# AfroDex Backend
+# https://github.com/AfroDex/backend-replacement
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
