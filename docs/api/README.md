@@ -67,9 +67,9 @@ Example `returnTicker`:
       "tokenAddr":"0x11f8dd7699147566cf193596083d45c8f592c4ba",
 [...]
 ```
-If you would like to get data on each ticker including names, please take a look at our [tokenbase repository](https://github.com/bitcratic/tokenbase). If you would just like a simple way to access ticker symbols, take a look at our [configuration JSON](https://bitcratic.com/config/main.json).
+If you would like to get data on each ticker including names, please take a look at our [tokenbase repository](https://github.com/AfroDex/tokenbase). If you would just like a simple way to access ticker symbols, take a look at our [configuration JSON](http://afrodexlabs.com/config/main.json).
 
-We also supply a REST version of this data, but highly recommend using the websocket server for the most up to date information. The REST version can be found here: https://bitcratic.org/returnTicker
+We also supply a REST version of this data, but highly recommend using the websocket server for the most up to date information. The REST version can be found here: http://afrodex.com.ng/returnTicker
 
 #### trades | myTrades
 
