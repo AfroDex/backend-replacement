@@ -1,14 +1,14 @@
-# ![Bitcratic logo](https://www.bitcratic.com/images/bitcratic1.png) Bitcratic Backend
+# ![AfroDex logo](http://afrodexlabs.com/images/AfroDex-150-150.png) AfroDex Backend
 
 
 
-This repository hosts the source code of Bitcratic backend. The backend provides off-chain orderbook functionality and an API to get a filtered view of Ethereum blockchain events on an [EtherDelta-like contract](https://www.reddit.com/r/EtherDelta/comments/6kdiyl/smart_contract_overview/).
+This repository hosts the source code of AfroDex backend. The backend provides off-chain orderbook functionality and an API to get a filtered view of Ethereum blockchain events on an [EtherDelta-like contract](https://www.reddit.com/r/EtherDelta/comments/6kdiyl/smart_contract_overview/).
 
 Best way to learn about a system is to read the source code. Start with a look at [docker-compose.yml](docker-compose.yml).
 
 ## API
 
-For information and documentation on Bitcratic API, look here: https://github.com/bitcratic/backend-replacement/tree/master/docs/api
+For information and documentation on AfroDex API, look here: https://github.com/AfroDex/backend-replacement/tree/master/docs/api
 
 ## Developing
 
@@ -40,7 +40,7 @@ Tips:
 
 ## License
 
-Copyright (C) 2018, Arseniy Ivanov and Bitcratic Contributors
+Copyright (C) 2019, Arseniy Ivanov, Bitcratic & AfroDex Contributors
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
