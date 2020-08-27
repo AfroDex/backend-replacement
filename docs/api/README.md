@@ -8,7 +8,7 @@ AfroDex's API gives you access to ticker information, orders, trades, deposits, 
 AfroDex's API is socket.io based. The API utilizes SSL on all connections to keep your data private.
 You can connect to AfroDex's API through this endpoint:
 
- - http://afrodex.com.ng/
+ - http://afrodex.net
  - https://afrodex.info/returnTicker
 
 
@@ -71,7 +71,7 @@ Example `returnTicker`:
 ```
 If you would like to get data on each ticker including names, please take a look at our [tokenbase repository](https://github.com/AfroDex/tokenbase). If you would just like a simple way to access ticker symbols, take a look at our [configuration JSON](http://afrodexlabs.com/config/main.json).
 
-We also supply a REST version of this data, but highly recommend using the websocket server for the most up to date information. The REST version can be found here: http://afrodex.com.ng/returnTicker
+We also supply a REST version of this data, but highly recommend using the websocket server for the most up to date information. The REST version can be found here: http://afrodex.info/returnTicker
 
 #### trades | myTrades
 
