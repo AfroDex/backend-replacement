@@ -1,4 +1,4 @@
-# ![AfroDex logo](http://afrodexlabs.com/images/AfroDex-150-150.png) AfroDex Backend
+# ![AfroDex logo](https://www.afrodex.net/images/AfroDex-300-300.jpg) AfroDex Backend
 
 
 
