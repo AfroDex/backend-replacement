@@ -8,7 +8,9 @@ AfroDex's API gives you access to ticker information, orders, trades, deposits, 
 AfroDex's API is socket.io based. The API utilizes SSL on all connections to keep your data private.
 You can connect to AfroDex's API through this endpoint:
 
- - http://afrodex.com.ng
+ - http://afrodex.com.ng/
+ - https://afrodex.info/returnTicker
+
 
 ## Rate Limiting
 
